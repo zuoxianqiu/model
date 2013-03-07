@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Contend:</b>
+  <%= @micripost.contend %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @micripost.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_micripost_path(@micripost) %> |
+<%= link_to 'Back', micriposts_path %>
